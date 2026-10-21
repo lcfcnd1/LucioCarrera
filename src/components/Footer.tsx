@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Logo */}
           <div className="font-mono text-xl font-bold">
-            <span className="text-gradient">SQSOFT</span>
+            <span className="text-gradient">Lucio Carrera</span>
           </div>
           
           {/* Social links */}
@@ -35,7 +35,7 @@ const Footer = () => {
           
           {/* Copyright */}
           <p className="text-muted-foreground text-sm font-mono">
-            © {currentYear} SQSOFT
+            © {currentYear} Lucio Carrera
           </p>
         </div>
       </div>
