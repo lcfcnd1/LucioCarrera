@@ -6,11 +6,11 @@ const Technologies = () => {
   const techCategories = [
     {
       title: "Frontend",
-      items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vue.js"],
+      items: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
     },
     {
       title: "Backend",
-      items: ["Node.js", "Python", "PostgreSQL", "MongoDB", "GraphQL"],
+      items: ["Node.js", "Python", "PostgreSQL", "GraphQL"],
     },
     {
       title: "DevOps & Tools",
@@ -18,7 +18,7 @@ const Technologies = () => {
     },
     {
       title: "IA",
-      items: ["OpenAI", "TensorFlow", "PyTorch", "LangChain", "Hugging Face"],
+      items: ["OpenAI"],
     },
   ];
 

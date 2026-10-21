@@ -1,26 +1,23 @@
 {
   "hero": {
     "greeting": "Hola, soy",
-    "title": "Desarrollador Full Stack",
-    "description": "Transformo ideas en soluciones digitales de alto impacto. Especializado en crear aplicaciones web modernas y escalables.",
+    "title": "Desarrollador full-stack, Node.js y TypeScript",
+    "description": "Construyo sistemas backend y productos web de punta a punta, y uso IA durante todo el ciclo de entrega: planificación, código, tests, CI/CD y deploy. Los modelos escriben mucho de eso. El diagnóstico y la revisión son míos, y eso es lo que decide si realmente funciona.",
     "cta": {
       "viewWork": "Ver mis proyectos",
-      "contact": "Contáctame"
+      "contact": "Contáctame",
+      "github": "GitHub",
+      "email": "Email",
+      "linkedin": "LinkedIn"
     }
   },
   "about": {
     "title": "Sobre mí",
     "subtitle": "SOBRE MÍ",
-    "heading": "Desarrollo soluciones que",
-    "headingHighlight": "impulsan negocios",
-    "description": "Soy un desarrollador apasionado por crear experiencias digitales excepcionales. Mi enfoque combina código limpio, diseño intuitivo y las mejores prácticas de la industria.",
-    "paragraph2": "Trabajo con startups y empresas establecidas para transformar sus visiones en productos digitales que generan resultados reales. Cada proyecto es una oportunidad para superar expectativas.",
-    "paragraph3": "Mi compromiso: entregar soluciones escalables, mantenibles y que realmente resuelvan problemas de negocio.",
-    "stats": {
-      "projects": "Proyectos completados",
-      "clients": "Clientes satisfechos",
-      "experience": "Años de experiencia"
-    }
+    "heading": "Sistemas que",
+    "headingHighlight": "realmente funcionan",
+    "description": "Cinco años como API Engineer en Onus Sistemas, construyendo y manteniendo las APIs RESTful sobre las que funcionaban su ERP y su plataforma de e-commerce.",
+    "paragraph2": "Después lancé XodeVault, un gestor de secretos cifrado zero-knowledge y open source en GitHub. Ahora busco un rol remoto full-stack o backend donde pueda hacerme cargo de sistemas reales."
   },
   "technologies": {
     "title": "Tecnologías",
@@ -34,33 +31,19 @@
     "subtitle": "PROYECTOS",
     "heading": "Trabajo",
     "headingHighlight": "destacado",
-    "description": "Una selección de proyectos que demuestran mi capacidad para entregar soluciones completas y de alta calidad.",
+    "description": "Dos sistemas construidos para resolver problemas reales: gestión segura de secretos y generación automatizada de leads.",
     "viewDemo": "Ver demo",
     "viewCode": "Ver código",
     "items": {
-      "ecommerce": {
-        "title": "E-Commerce Platform",
-        "description": "Plataforma completa de comercio electrónico con gestión de inventario, pagos integrados y panel de administración."
+      "xodevault": {
+        "title": "XodeVault",
+        "description": "Gestor de secretos zero-knowledge y cifrado end-to-end. AES-256-GCM con derivación de claves PBKDF2, claves compartidas que nunca llegan al servidor y un decryptor CLI para pipelines de CI/CD.",
+        "stack": "React • Node.js • SQLite"
       },
-      "dashboard": {
-        "title": "Dashboard Analytics",
-        "description": "Sistema de análisis de datos en tiempo real con visualizaciones interactivas y reportes automatizados."
-      },
-      "management": {
-        "title": "App de Gestión",
-        "description": "Aplicación de gestión empresarial con módulos de RRHH, finanzas y CRM integrados."
-      },
-      "booking": {
-        "title": "Sistema de Reservas",
-        "description": "Plataforma de reservas online para restaurantes con calendario interactivo y notificaciones en tiempo real."
-      },
-      "automation": {
-        "title": "AI Automation Studio",
-        "description": "Plataforma visual para diseñar agentes, automatizar procesos y monitorear ejecuciones en tiempo real."
-      },
-      "social": {
-        "title": "Social Media Dashboard",
-        "description": "Panel de control para gestión de redes sociales con programación de posts y métricas unificadas."
+      "jobfinder": {
+        "title": "JobFinder",
+        "description": "Bot de prospección de leads. Busca negocios locales en Google Places, audita su presencia digital, puntúa cada lead y realiza el primer contacto por WhatsApp o email.",
+        "stack": "Node.js • SQLite"
       }
     }
   },
@@ -69,7 +52,7 @@
     "subtitle": "CONTACTO",
     "heading": "¿Tienes un {highlight} en mente?",
     "highlight": "proyecto",
-    "description": "Estoy disponible para proyectos freelance y colaboraciones. Hablemos sobre cómo puedo ayudarte.",
+    "description": "Estoy abierto a roles remotos full-stack y backend, y también disponible para trabajos freelance.",
     "info": {
       "email": "Email",
       "location": "Ubicación",

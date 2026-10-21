@@ -1,9 +1,8 @@
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, Github, Linkedin, Mail } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { Button } from "./ui/button";
-import { Link } from "react-router-dom";
 
 const Hero = () => {
   const { t } = useTranslation();
@@ -80,12 +79,26 @@ const Hero = () => {
             <span className="text-primary">&gt;</span> {t('hero.title')}
           </p>
           
-          <p className="text-muted-foreground/70 mt-4 max-w-md animate-fade-up animation-delay-300">
+          <p className="text-muted-foreground/70 mt-4 max-w-xl leading-relaxed animate-fade-up animation-delay-300">
             {t('hero.description')}
           </p>
-           <Button asChild variant="outline" className="mt-4 animate-fade-up animation-delay-400">
-                <Link to="/luciocarreracv">{t('cv.view_button', 'Ver CV')}</Link>
+          <div className="flex flex-wrap gap-3 mt-8 animate-fade-up animation-delay-400">
+            <Button asChild className="bg-primary text-primary-foreground hover:bg-primary/90">
+              <a href="https://github.com/lcfcnd1" target="_blank" rel="noreferrer">
+                <Github className="w-4 h-4 mr-2" />{t('hero.cta.github')}
+              </a>
             </Button>
+            <Button asChild variant="outline">
+              <a href="mailto:lcfcndw@gmail.com">
+                <Mail className="w-4 h-4 mr-2" />{t('hero.cta.email')}
+              </a>
+            </Button>
+            <Button asChild variant="outline">
+              <a href="https://www.linkedin.com/in/lucio-carrera-6a6bb9220/" target="_blank" rel="noreferrer">
+                <Linkedin className="w-4 h-4 mr-2" />{t('hero.cta.linkedin')}
+              </a>
+            </Button>
+          </div>
         </div>
       </div>
       

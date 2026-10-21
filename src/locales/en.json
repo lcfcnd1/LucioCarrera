@@ -1,26 +1,23 @@
 {
   "hero": {
     "greeting": "Hello, I'm",
-    "title": "Full Stack Developer",
-    "description": "I transform ideas into high-impact digital solutions. Specialized in creating modern and scalable web applications.",
+    "title": "Full-stack developer, Node.js and TypeScript",
+    "description": "I build backend systems and web products end to end, and I use AI across the whole delivery cycle: planning, code, tests, CI/CD, deploy. The models write a lot of it. The diagnosis and the review are mine, which is what decides whether the thing actually works.",
     "cta": {
       "viewWork": "View my projects",
-      "contact": "Contact me"
+      "contact": "Contact me",
+      "github": "GitHub",
+      "email": "Email me",
+      "linkedin": "LinkedIn"
     }
   },
   "about": {
     "title": "About me",
     "subtitle": "ABOUT ME",
-    "heading": "I develop solutions that",
-    "headingHighlight": "drive businesses",
-    "description": "I'm a developer passionate about creating exceptional digital experiences. My approach combines clean code, intuitive design and industry best practices.",
-    "paragraph2": "I work with startups and established companies to transform their visions into digital products that generate real results. Every project is an opportunity to exceed expectations.",
-    "paragraph3": "My commitment: deliver scalable, maintainable solutions that truly solve business problems.",
-    "stats": {
-      "projects": "Projects completed",
-      "clients": "Satisfied clients",
-      "experience": "Years of experience"
-    }
+    "heading": "Systems that",
+    "headingHighlight": "actually work",
+    "description": "Five years as an API Engineer at Onus Sistemas, building and maintaining the RESTful APIs their ERP and e-commerce platform ran on.",
+    "paragraph2": "Then I shipped XodeVault, a zero-knowledge encrypted secrets manager, and it's open source on GitHub. I'm now looking for a remote full-stack or backend role where I can own real systems."
   },
   "technologies": {
     "title": "Technologies",
@@ -34,33 +31,19 @@
     "subtitle": "PROJECTS",
     "heading": "Featured",
     "headingHighlight": "work",
-    "description": "A selection of projects that demonstrate my ability to deliver complete, high-quality solutions.",
+    "description": "Two systems built to solve real problems, from secure secrets management to automated lead generation.",
     "viewDemo": "View demo",
     "viewCode": "View code",
     "items": {
-      "ecommerce": {
-        "title": "E-Commerce Platform",
-        "description": "Complete e-commerce platform with inventory management, integrated payments and admin panel."
+      "xodevault": {
+        "title": "XodeVault",
+        "description": "Zero-knowledge, end-to-end encrypted secrets manager. AES-256-GCM with PBKDF2 key derivation, share keys that never reach the server, and a CLI decryptor for CI/CD pipelines.",
+        "stack": "React • Node.js • SQLite"
       },
-      "dashboard": {
-        "title": "Dashboard Analytics",
-        "description": "Real-time data analysis system with interactive visualizations and automated reports."
-      },
-      "management": {
-        "title": "Management App",
-        "description": "Business management application with integrated HR, finance and CRM modules."
-      },
-      "booking": {
-        "title": "Booking System",
-        "description": "Online booking platform for restaurants with interactive calendar and real-time notifications."
-      },
-      "automation": {
-        "title": "AI Automation Studio",
-        "description": "Visual platform to design agents, automate processes and monitor executions in real time."
-      },
-      "social": {
-        "title": "Social Media Dashboard",
-        "description": "Control panel for social media management with post scheduling and unified metrics."
+      "jobfinder": {
+        "title": "JobFinder",
+        "description": "Lead prospecting bot. Pulls local businesses from Google Places, audits their digital presence, scores each lead, then runs first contact over WhatsApp or email.",
+        "stack": "Node.js • SQLite"
       }
     }
   },
@@ -69,7 +52,7 @@
     "subtitle": "CONTACT",
     "heading": "Do you have a {highlight} in mind?",
     "highlight": "project",
-    "description": "I'm available for freelance projects and collaborations. Let's talk about how I can help you.",
+    "description": "Open to remote full-stack and backend roles, and available for freelance work.",
     "info": {
       "email": "Email",
       "location": "Location",

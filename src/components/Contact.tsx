@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Mail, MapPin, Send } from "lucide-react";
+import { Github, Linkedin, Mail, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -85,13 +85,21 @@ const Contact = () => {
             
             <div className="glass-card p-6 flex items-start gap-4 hover:border-primary/30 transition-colors">
               <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
-                <MapPin className="w-5 h-5 text-primary" />
+                <Github className="w-5 h-5 text-primary" />
               </div>
               <div>
-                <h3 className="font-semibold mb-1">{t('contact.info.location')}</h3>
-                <p className="text-muted-foreground">
-                  {t('contact.info.locationText')}
-                </p>
+                <h3 className="font-semibold mb-1">GitHub</h3>
+                <a href="https://github.com/lcfcnd1" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary transition-colors">github.com/lcfcnd1</a>
+              </div>
+            </div>
+
+            <div className="glass-card p-6 flex items-start gap-4 hover:border-primary/30 transition-colors">
+              <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                <Linkedin className="w-5 h-5 text-primary" />
+              </div>
+              <div>
+                <h3 className="font-semibold mb-1">LinkedIn</h3>
+                <a href="https://www.linkedin.com/in/lucio-carrera-6a6bb9220/" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary transition-colors">LinkedIn</a>
               </div>
             </div>
 
