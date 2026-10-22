@@ -34,6 +34,7 @@
     "description": "Dos sistemas construidos para resolver problemas reales: gestión segura de secretos y generación automatizada de leads.",
     "viewDemo": "Ver demo",
     "viewCode": "Ver código",
+    "preview": "Vista previa",
     "items": {
       "xodevault": {
         "title": "XodeVault",

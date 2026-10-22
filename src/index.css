@@ -174,3 +174,5 @@
   .animation-delay-500 { animation-delay: 500ms; }
   .animation-delay-600 { animation-delay: 600ms; }
 }
+
+.work-actions{display:flex;align-items:center;gap:.45rem;opacity:0;transition:.2s}.work-card:hover .work-actions{opacity:1}.work-actions a{display:grid;place-items:center;width:28px;height:28px;border:1px solid hsl(var(--border));border-radius:8px;color:hsl(var(--muted-foreground));transition:.2s}.work-actions a:hover{color:hsl(var(--primary));border-color:hsl(var(--primary)/.5);background:hsl(var(--primary)/.08)}.work-thumb{position:relative;height:220px;overflow:hidden;border:1px solid hsl(var(--border));border-radius:13px;background:#070912}.work-thumb img{display:block;width:100%;height:100%;object-fit:cover;object-position:top center}.work-thumb>span{position:absolute;right:.7rem;bottom:.7rem;padding:.3rem .55rem;border-radius:999px;background:#070912cc;color:hsl(var(--muted-foreground));font:500 .57rem "JetBrains Mono"}

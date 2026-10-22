@@ -34,6 +34,7 @@
     "description": "Two systems built to solve real problems, from secure secrets management to automated lead generation.",
     "viewDemo": "View demo",
     "viewCode": "View code",
+    "preview": "Live preview",
     "items": {
       "xodevault": {
         "title": "XodeVault",
